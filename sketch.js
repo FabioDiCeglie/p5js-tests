@@ -1,11 +1,10 @@
 function setup() {
   createCanvas(490, 800);
+  background(0);
 }
 
 function draw() {
-  background(0);
-
   noStroke();
-  fill(255);
-  ellipse(200, 150, 75, 75);
+  fill(255, 50);
+  circle(mouseX, mouseY, 24);
 }
