@@ -8,3 +8,7 @@ function draw() {
   fill(255, 50);
   circle(mouseX, mouseY, 24);
 }
+
+function mousePressed() {
+  background(0);
+}
